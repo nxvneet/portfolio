@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Poppins&display=swap');
+:root{
+    color: var --primary-color(#10b981)
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'oxygen', sans-serif;
+}

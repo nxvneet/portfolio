@@ -5,24 +5,50 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    
+    max-width: 760px;
+    margin: auto;
 }
 p{
     font-family: 'oxygen', sans-serif;
 }
-
+hr{
+    margin: 1.5rem 0; 
+    
+    justify-content: center;
+}
 .navigation{
     background: var(--primary-color);
-    margin: auto;
+    max-width: 760px;
+    border-bottom-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
 }
-.navigation .nav-brand{
-    padding: 1rem, 1rem;
+.nav-brand{
     font-size: 1.1rem;
     font-weight: bold;
     color: white;
+    padding: 1rem 0 0 1rem;
+  
 }
 
 .list-unordered{
     margin: auto;
     list-style: none;
+    text-align: end;
+    padding-bottom: 1rem;
+    
+}
+
+.list-inline{
+    display: inline;
+    padding-right: 1.5rem;
+    
+}
+
+.list-inline .link{
+    text-decoration: none;
+    color: white;
+}
+
+.list-active{
+    font-weight: bold;
 }

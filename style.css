@@ -20,6 +20,10 @@ h1, h2, h3 {
 text-align: center;
 }
 
+h1{
+    font-size: 2em;
+}
+
 hr{
    
     border: none;
@@ -28,7 +32,8 @@ hr{
 
 .navigation{
     background: var(--primary-color);
-    max-width: 760px;
+    width:100%;
+    margin: auto;
     /* display: flex;
     flex-wrap: wrap;
     align-items: end !important; */
@@ -77,9 +82,26 @@ hr{
     max-width: 100%;
     margin: auto;
 }
-.btn-link{
+.btn{
+    border: solid 1px var(--primary-color);
+    border-radius: 18px;
+    margin:auto;
+    display: block;
+    max-width: 120px;
     text-align: center;
+    width: 100%;
+    text-decoration: none;
+    padding: 0.4rem 0.4rem 0.4rem 0.4rem;
 }
+.btn-link{
+    background: var(--primary-color);
+    color:white;
+}
+.btn-link1{
+   color: var(--primary-color);
+}
+
+
 .gray-bg{
     background-color: var(--light-gray);
 }
@@ -88,3 +110,30 @@ section{
     border-radius: 25px;
 
 }
+
+.footer-brand{
+font-weight: bold;
+color: white;
+font-size: 20px;
+text-align: center;
+}
+
+.footer-nav > .navigation{
+    border-top-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 1.5rem 0;
+}
+
+.footer-nav > .navigation > .list-unordered{
+    display: block ;
+    text-align: center;
+}
+.navigation > .footer-brand{
+    margin: 0.5rem auto;
+}
+
+footer{
+    margin-top: 2rem;
+} 

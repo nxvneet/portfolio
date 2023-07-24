@@ -110,6 +110,7 @@ hr{
 
 .gray-bg{
     background-color: var(--light-gray);
+
 }
 section{
     padding: 2rem;
@@ -150,4 +151,7 @@ footer{
 .project-btns{
     display: flex;
     justify-content: center;
+}
+.blog-content{
+    text-align:center;
 }

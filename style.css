@@ -25,6 +25,7 @@ h3 {
 
 h1 {
     font-size: 2em;
+    margin: 0;
 }
 
 hr {
@@ -83,6 +84,7 @@ hr {
 
 .head-title {
     color: var(--dark-gray);
+    margin: 1.5rem auto;
 }
 
 .btn {
@@ -111,7 +113,7 @@ hr {
 }
 
 section {
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 25px;
 }
 
@@ -154,4 +156,53 @@ footer {
 
 .blog-content {
     text-align: center;
+}
+
+.upper-section{
+    margin: 1.5rem auto;
+}
+.skills {
+    align-items: center;
+    /* bottom: 0; */
+    color: #767676;
+    display: flex;
+    font-size: 1rem;
+    gap: 2.5rem;
+    justify-content: center;
+    margin: 1rem auto;
+    
+}
+.skills span {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,.09);
+    cursor: pointer;
+    display: flex;
+    height: 2.6rem;
+    width: 2.6rem;
+    justify-content: center;    
+    margin: auto 5px;
+}
+.logos{
+    display: flex;
+}
+/* .skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    
+    list-style: none;
+} */
+.skills span img {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+@media (max-width: 900px){
+    .skills {
+        flex-direction: column;
+        position: static;
+    }
+    .skills span {
+        justify-content: center;
+    }
 }

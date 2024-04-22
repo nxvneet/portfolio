@@ -207,6 +207,17 @@ footer {
     .skills span {
         justify-content: center;
     }
+    .head-title {
+        color: var(--dark-gray);
+        margin: 1.5rem auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-img{
+        width: 100%;
+    }
 }
 
 .pyramid-loader {

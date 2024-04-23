@@ -224,9 +224,11 @@ footer {
     }
     .nav-brand {
         text-align: center;
+        padding-bottom: 10px;
     }  
     .list-unordered {
         text-align: center;
+        padding-bottom: 5px;
     }                                                      
 }
 

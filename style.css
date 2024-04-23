@@ -218,6 +218,15 @@ footer {
     .hero-img{
         width: 100%;
     }
+    .navigation{
+        padding: 1.5rem 0;
+    }
+    .nav-brand {
+        text-align: center;
+    }  
+    .list-unordered {
+        text-align: center;
+    }                                                      
 }
 
 .pyramid-loader {

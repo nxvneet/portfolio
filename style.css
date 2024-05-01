@@ -53,10 +53,10 @@ hr {
 } */
 
 .nav-brand {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: bold;
     color: white;
-    /* padding: 1rem 0 0 1rem; */
+    text-decoration: none;
 }
 
 .list-unordered {
@@ -70,6 +70,7 @@ hr {
 .list-inline {
     display: inline;
     padding-right: 1.5rem;
+    font-size: 1.1rem;
 }
 
 .list-inline .link {
@@ -225,6 +226,7 @@ footer {
     }
     .hero-img{
         width: 100%;
+        padding: 0.3rem 0 0 0;
     }
     
     .nav-brand {
@@ -343,6 +345,13 @@ footer {
         padding: 0;
         background: #fff;
         box-shadow: none;
+        padding: 1rem 0 0 0;
+    }
+    hero-img {
+        display: block;
+        width: 60%;
+        max-width: 100%;
+        margin: auto;
     }
     .list-inline .link{
         color: var(--primary-color);
@@ -360,6 +369,7 @@ footer {
     .list-unordered.show {
         max-height: 200px; /* Adjust the maximum height to fit your content */
         text-align: center;
+        padding: 1rem 0 0 0;
         transition: max-height 0.3s ease-in;
     }
    

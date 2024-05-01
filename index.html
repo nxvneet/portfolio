@@ -15,10 +15,21 @@
 
 
 
-    <nav class="navigation">
-        <div class="nav-brand">navneet singh.</div>
+    <nav class="navigation" id="myTopnav">
+        <div class="nav-content">
+            <div class="nav-brand">navneet singh.
+                <a class="icon" onclick="toggleMenu()">
+                    <div class="hamburger">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </a>
+            </div>
 
-        <ul class="list-unordered">
+        </div>
+
+        <ul class="list-unordered" id="navList">
             <li class="list-inline list-active">
                 <a class="link" href="">home</a>
             </li>
@@ -29,6 +40,7 @@
                 <a class="link" href="blogs.html">blogs</a>
             </li>
         </ul>
+
     </nav>
 
 
@@ -136,7 +148,18 @@
     </footer>
 
 
-
+    <script>
+        function toggleMenu() {
+            var navList = document.getElementById("navList");
+            var icon = document.querySelector(".icon");
+            icon.classList.toggle("close"); // Toggle close class on the icon
+            if (navList.classList.contains("show")) {
+                navList.classList.remove("show");
+            } else {
+                navList.classList.add("show");
+            }
+        }
+    </script>
 
 </body>
 

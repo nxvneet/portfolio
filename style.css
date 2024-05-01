@@ -354,13 +354,13 @@ footer {
         padding-inline-start: 0px;
         max-height: 0; /* Start with 0 height to hide the <ul> */
         overflow: hidden; /* Hide overflowing content */
-        transition: max-height 0.5s ease-out; /* Add smooth transition */
+        transition: max-height 0.3s ease-out; /* Add smooth transition */
     }
     
     .list-unordered.show {
         max-height: 200px; /* Adjust the maximum height to fit your content */
         text-align: center;
-        transition: max-height 0.5s ease-in;
+        transition: max-height 0.3s ease-in;
     }
    
     .nav-brand {

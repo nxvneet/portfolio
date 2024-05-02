@@ -359,7 +359,7 @@ footer {
     .list-unordered {
         margin: auto;
         list-style: none;
-    
+        padding: 1rem 0 0 0;
         padding-inline-start: 0px;
         max-height: 0; /* Start with 0 height to hide the <ul> */
         overflow: hidden; /* Hide overflowing content */

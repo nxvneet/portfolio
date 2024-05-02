@@ -369,7 +369,7 @@ footer {
     .list-unordered.show {
         max-height: 200px; /* Adjust the maximum height to fit your content */
         text-align: center;
-        padding: 1rem 0 0 0;
+        padding: 1rem 0 0.5rem 0;
         transition: max-height 0.3s ease-in;
     }
    
